@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "strictNullChecks": false,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "outDir": "./dist",
+        "lib": ["dom", "esnext"]
+    },
+    "include": [
+        "./src/**/*.ts"
+    ]
+}
