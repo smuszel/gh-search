@@ -1,13 +1,17 @@
 {
     "compilerOptions": {
-        "strictNullChecks": false,
+        "strictNullChecks": true,
         "noImplicitThis": true,
-        "noImplicitAny": true,
+        "noImplicitAny": false,
         "noImplicitReturns": true,
         "outDir": "./dist",
+        "esModuleInterop": true,
+        "jsx": "react",
         "lib": ["dom", "esnext"]
     },
     "include": [
-        "./src/**/*.ts"
+        "./src/**/*.ts",
+        "./src/**/*.tsx",
+        "./types.d.ts"
     ]
 }
