@@ -21,3 +21,5 @@ Thanks to following features this can serve as a boilerplate for larger project
 
 * `npm run start`
 * under separate window `npm run test`
+
+### :point_right: [Demo](https://smuszel.github.io/gh-search/dist/)
